@@ -1,0 +1,23 @@
+{
+  "name": "static-content-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossy87/acme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crossy87/acme/issues"
+  },
+  "homepage": "https://github.com/crossy87/acme#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

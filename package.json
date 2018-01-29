@@ -1,7 +1,7 @@
 {
   "name": "static-content-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "static-content-challenge-hannah-cross",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,8 +19,10 @@
   "homepage": "https://github.com/crossy87/acme#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
     "morgan": "^1.9.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "markdown-folder-to-html": "^1.5.2"
   }
 }

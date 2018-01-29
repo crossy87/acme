@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/crossy87/acme#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
   }
 }

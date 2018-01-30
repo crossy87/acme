@@ -1,15 +1,8 @@
 /* globals api, expect, describe, it, req, res */
 
-// The application should be shipped with three tests:
-//
-// one that verifies that requests to valid URLs return a 200 HTTP status code
-
-// one that verifies that requests to valid URLS return a body that contains the HTML generated from the relevant index.md markdown file
-
-// one that verifies that requests to URLs that do not match content folders return a 404 HTTP status code
-
 require('./spec_helper');
 
+// one that verifies that requests to valid URLs return a 200 HTTP status code
 describe('content test', () => {
 
   describe('GET /content/about-page', () => {
@@ -40,7 +33,8 @@ describe('content test', () => {
 
 });
 
-describe('md file type', () => {
+// one that verifies that requests to valid URLS return a body that contains the HTML generated from the relevant index.md markdown file
+describe('correct content for each page', () => {
 
   it('should respond with correct content', done => {
     api
@@ -75,6 +69,7 @@ describe('md file type', () => {
 
 });
 
+// one that verifies that requests to URLs that do not match content folders return a 404 HTTP status code
 describe('error 404', () => {
   it('wrong url', function(done) {
     api

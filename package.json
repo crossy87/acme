@@ -4,7 +4,7 @@
   "description": "static-content-challenge-hannah-cross",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "istanbul cover node_modules/.bin/_mocha",
     "start": "node server.js"
   },
   "repository": {
@@ -19,10 +19,14 @@
   "homepage": "https://github.com/crossy87/acme#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
     "docserver": "^0.1.4",
     "express": "^4.16.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0",
     "morgan": "^1.9.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "supertest": "^3.0.0"
   },
   "devDependencies": {
     "markdown-folder-to-html": "^1.5.2"

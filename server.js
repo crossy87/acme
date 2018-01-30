@@ -19,3 +19,5 @@ app.use(docserver({
 app.listen(port, () => {
   console.log(docserver.version + ` Listening on port: ${port}`);
 });
+
+module.exports = app;
